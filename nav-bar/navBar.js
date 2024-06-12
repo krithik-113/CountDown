@@ -3,14 +3,9 @@ let cross = document.querySelector(".close");
 let unorderedList = document.querySelector("ul");
 let listItem = document.querySelectorAll("li");
 
-// for (i = 0; i < listItem.length; i++) {
-//   listItem[i].style.color = "transparent";
-// }
-
 div.addEventListener("click", () => {
 
   for (i = 0; i < listItem.length; i++) {
-    listItem[i].style.display="inline"
     listItem[i].style.color = "black";
   }
   unorderedList.style.background = "hsla(60, 59%, 46%, 0.717)";
