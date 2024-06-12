@@ -8,7 +8,9 @@ let listItem = document.querySelectorAll("li");
 // }
 
 div.addEventListener("click", () => {
+
   for (i = 0; i < listItem.length; i++) {
+    listItem[i].style.display="inline"
     listItem[i].style.color = "black";
   }
   unorderedList.style.background = "hsla(60, 59%, 46%, 0.717)";
