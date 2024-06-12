@@ -30,17 +30,31 @@ ul{
     width: fit-content;
 }
 
+.menu-line{
+  height:3px ;
+  width: 20px;
+  background: black;
+  margin: 3px 0;
+  background-color: hsla(78, 39%, 27%, 0.754);
+}
+
 @media screen and (max-width: 600px) {
       ul li{
         display: block;
         color: transparent;
       }
       .nav-bar{
-        width: fit-content;
+        width:fit-content;
         display: block;
-        padding: 10px 0 0 0;
+        padding: 5px;
         margin-left: 70%;
+        cursor: pointer;
       }
+      .nav-bar:hover,.nav-bar:focus, .close:hover,.close:focus{
+   outline: 3px solid hsla(0, 0%, 0%, 0.638);
+}.nav-bar:active,.close:active{
+  outline: 3px solid hsla(0, 0%, 0%, 0.638);
+}
       .close{
         width: fit-content;
         margin-left: 40%;

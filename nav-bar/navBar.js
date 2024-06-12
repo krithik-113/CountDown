@@ -6,8 +6,10 @@ let listItem = document.querySelectorAll("li");
 div.addEventListener("click", () => {
 
   for (i = 0; i < listItem.length; i++) {
+    listItem[i].style.transition='1s'
     listItem[i].style.color = "black";
   }
+  unorderedList.style.transition = '1s'
   unorderedList.style.background = "hsla(60, 59%, 46%, 0.717)";
   div.style.display = "none";
   cross.style.display = "block";
