@@ -41,6 +41,9 @@ ul{
         display: block;
         padding: 10px 10px 0 0;
       }
+      .close{
+        padding: 10px 10px 0 0;
+      }
       ul{
         text-align: center;
         margin: 0;
